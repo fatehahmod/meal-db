@@ -6,17 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meal bd API USE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        #color{
+            background-color: darkolivegreen;
+        }
+    </style>
 
 </head>
-<body >
-   <h2 class="text-success text-center">SEARCH YOUR <span class="text-gray">FOOD</span></h2>
+<body id="color">
+   <h2 class="text-white fs-1 text-center">SEARCH YOUR FOOD</span></h2>
   <div class="input-group mb-3 w-50  mx-auto">
-      <input id="search-field" type="text" class="form-control" placeholder="Search your food" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <input id="search-field" type="text" class="form-control" placeholder="Search your food, @this website develop by Fateh Ahmod" aria-label="Recipient's username" aria-describedby="button-addon2">
       <button onclick="searchFood()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
   </div>
 
   <!-- serch result -->
-  <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+  <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4 mb-3"></div>
+  <div>
+      <h3 class="fs-6 fst-italic" style=color:chocolate>This website develop by ahmod fateh</h3>
+</div>
+  <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
     <div class="col">
       <div class="card">
           <img src="img/1.jpg" class="card-img-top" alt="...">
